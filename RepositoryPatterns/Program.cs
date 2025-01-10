@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+
+using FactoryPattern;
+
+INotification notification= NotificationFactory.CreateNotification("Email");
+
+notification.NotifyMessage("Hi I am from Email Message");
+
+
+
