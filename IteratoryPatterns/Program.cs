@@ -3,6 +3,7 @@ BookCollections books=new BookCollections();
 books.AddBook(new Book("DesignPatterns"));
 books.AddBook(new Book("Client Code"));
 books.AddBook(new Book("Client Code 1"));
+books.AddBook(new Book("Client Code 2"));
 
 IIterator<Book> iterator = books.CreateIterotor();
 
