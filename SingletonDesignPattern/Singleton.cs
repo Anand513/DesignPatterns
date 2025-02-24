@@ -8,7 +8,7 @@ namespace SingletonDesignPattern
 {
     public class Countries
     {
-       public string countrues { get; set; }
+        public string countrues { get; set; }
 
         public void CountryName()
         {
