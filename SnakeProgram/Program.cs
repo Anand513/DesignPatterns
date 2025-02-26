@@ -27,7 +27,7 @@ class SnakeGame
      static void   InitialiazeGame()
     {
       snake.Clear ();
-     snake.Add((width/2,height/2));
+      snake.Add((width/2,height/2));
       GenerateFood();
 
         while (!GameOver)
