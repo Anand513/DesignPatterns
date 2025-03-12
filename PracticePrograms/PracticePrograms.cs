@@ -264,29 +264,78 @@ namespace SnakeGame
             return result;
         }
 
+        //Find the combinationof Printing
 
+        //1
+        //2 3
+        //4 5 6
+
+        public void PrintCombination(int n)
+        {
+            int value = 1;
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j <= i; j++)
+                {
+
+                    Console.Write(value);
+                    value++;
+                }
+                Console.WriteLine();
+            }
+        }
+
+        //Palindrome Combinations
+        public void PalindromeCombinations(string word = "")
+        {
+            word = "anand";
+
+            string left = "";
+            string right = "";
+            int z = 0;
+
+            for (int i = 0; i < word.Length; i++)
+            {
+                left += word[i];
+                int j = left.Length - 1;
+
+                if (left.Length > 2)
+                {
+
+                    while (j >= 0)
+                    {
+                        right += left[j];
+                        j--;
+                    }
+                    if (left == right)
+                    {
+                        Console.WriteLine("Palindrome combinations are" + left);
+                    }
+                    z++;
+                    i = z - 1;
+                    left = "";
+                    right = "";
+                }
+                
+            }
+
+            Console.Read();
+
+
+
+
+
+
+        }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
 
 
 

@@ -113,6 +113,16 @@ class LudoGame
 
         Console.WriteLine(strs);
 
+
+        //Combinations printing 
+
+        obj.PrintCombination(5);
+
+
+        //Palindrome Combinations 
+
+        obj.PalindromeCombinations();
+
         Console.Read();
 
 
