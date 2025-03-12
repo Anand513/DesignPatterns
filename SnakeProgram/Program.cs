@@ -35,7 +35,7 @@ class SnakeGame
             Draw();
             Input();
             logic();
-            Thread.Sleep(1000);
+            Thread.Sleep(500);
         }
         Console.Clear();
         Console.WriteLine("Game Over! Final Score: " + score);
