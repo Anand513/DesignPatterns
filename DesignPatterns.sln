@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnakeProgram", "SnakeProgra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LudoGame", "LudoGame\LudoGame.csproj", "{D16B129A-DF5F-4529-B702-C52AE71AD2F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticePrograms", "PracticePrograms\PracticePrograms.csproj", "{B1EAC682-9E85-4025-9DF9-4F637F977743}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticePrograms", "PracticePrograms\PracticePrograms.csproj", "{B1EAC682-9E85-4025-9DF9-4F637F977743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSAAlgorithms", "DSAAlgorithms\DSAAlgorithms.csproj", "{E7332128-B5B7-4C8E-B484-69D8A23ABCDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{B1EAC682-9E85-4025-9DF9-4F637F977743}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1EAC682-9E85-4025-9DF9-4F637F977743}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1EAC682-9E85-4025-9DF9-4F637F977743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7332128-B5B7-4C8E-B484-69D8A23ABCDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7332128-B5B7-4C8E-B484-69D8A23ABCDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7332128-B5B7-4C8E-B484-69D8A23ABCDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7332128-B5B7-4C8E-B484-69D8A23ABCDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
