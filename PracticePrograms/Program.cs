@@ -123,6 +123,16 @@ class LudoGame
 
         obj.PalindromeCombinations();
 
+
+        //ATM withdrawl
+
+        int[] money = { 100, 20, 5, 10,2 };
+
+        Dictionary<int, int> outmoney = obj.AtmWithdrawl(money, 239);
+
+        foreach (var i in outmoney)
+            Console.WriteLine(i.Key + " " + i.Value);
+
         Console.Read();
 
 

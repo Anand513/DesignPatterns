@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.Tracing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -316,17 +317,53 @@ namespace SnakeGame
                     left = "";
                     right = "";
                 }
-                
+
             }
-
-            Console.Read();
-
-
 
 
 
 
         }
+        //Banking ATM Machine
+
+        public Dictionary<int, int> AtmWithdrawl(int[] atm, int Target)
+        {
+            int j = 0;
+            Dictionary<int, int> Notes = new Dictionary<int, int>();
+
+            while (Target > 0)
+            {
+                
+                if (Target >= atm[j])
+                {
+                    if (Target > 0)
+                    {
+                        Target = Target - atm[j];
+                        if (!Notes.ContainsKey(atm[j]))
+                        {
+                            Notes.Add(atm[j], 1);
+                        }
+                        else
+                        {
+                            Notes[atm[j]]++;
+                        }
+                    }
+                }
+                else
+                {
+                    j++;
+                    if(j >= atm.Length)
+                    {
+
+                        Console.WriteLine("Target money not able to retrieve due to insufficent money notes please correct and enter : "+Target);
+                        return Notes;
+                    }
+                }
+            }
+            Console.WriteLine("Amount recived and payement fully done : " + Target);
+            return Notes;
+        }
+
     }
 }
 
