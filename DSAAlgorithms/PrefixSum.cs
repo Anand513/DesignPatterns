@@ -28,7 +28,7 @@ namespace DSAAlgorithms
             Console.WriteLine("Prefix Summ Array :" + string.Join(", ", PreArray));
 
 
-            //Find the sum idex for 3 values
+            //Find the sum index for 3 values
 
             int l= 1;
             int r = 3;
