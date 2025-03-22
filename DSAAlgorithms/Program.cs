@@ -26,4 +26,7 @@ RL.printlist(head);
 head= RL.reverselist(head);
 RL.printlist(head);
 
+MonotonicStack ms =new MonotonicStack();
+ms.GreaterElement();
+
 
