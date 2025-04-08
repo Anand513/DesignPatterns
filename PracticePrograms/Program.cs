@@ -15,10 +15,11 @@ class LudoGame
         int[] array = { 1, 2, 4, 5, 9 };
         string word = "Hello";
 
-        int target = 6;
+        int target = 2;
         //Binary Search
 
         int result = obj.BinarySearch(array, target);
+        Console.WriteLine("result " + result);
 
         //Sorting
 

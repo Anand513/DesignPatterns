@@ -21,7 +21,7 @@ namespace SnakeGame
 
 
 
-            while (left < right)
+            while (left <= right)
             {
 
                 int mid = left + (right - left) / 2;
@@ -31,7 +31,7 @@ namespace SnakeGame
                     return array[mid];
                 }
 
-                if (Target <= array[mid])
+                if (array[mid]<Target)
                 {
                     left = mid + 1;
                 }

@@ -15,6 +15,8 @@ slidingWindow  sw=new slidingWindow();
 int max = sw.SlidingWindowDSA();
 Console.WriteLine($"Maximum element is {max}");
 
+sw.getresult();
+
 
 LinkedNode head = new LinkedNode(1);
 head.Next= new LinkedNode(2);
@@ -28,5 +30,8 @@ RL.printlist(head);
 
 MonotonicStack ms =new MonotonicStack();
 ms.GreaterElement();
+
+TopKelements Kele=new TopKelements();
+Kele.Kelements();
 
 
