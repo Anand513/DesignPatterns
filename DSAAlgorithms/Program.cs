@@ -34,4 +34,7 @@ ms.GreaterElement();
 TopKelements Kele=new TopKelements();
 Kele.Kelements();
 
+MergeIntervals  mI=new MergeIntervals();
+mI.getmergeintervalist();
+
 

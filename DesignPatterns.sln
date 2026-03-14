@@ -27,7 +27,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LudoGame", "LudoGame\LudoGa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticePrograms", "PracticePrograms\PracticePrograms.csproj", "{B1EAC682-9E85-4025-9DF9-4F637F977743}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSAAlgorithms", "DSAAlgorithms\DSAAlgorithms.csproj", "{E7332128-B5B7-4C8E-B484-69D8A23ABCDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSAAlgorithms", "DSAAlgorithms\DSAAlgorithms.csproj", "{E7332128-B5B7-4C8E-B484-69D8A23ABCDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9A36B268-48FB-45CA-9097-C1BE23894747}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{364AAC1C-57E7-4351-995E-E735D4AF6454}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{EE535400-34BB-4567-938B-2B552C6A99B6}"
+	ProjectSection(SolutionItems) = preProject
+		build.yml = build.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -90,6 +102,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE535400-34BB-4567-938B-2B552C6A99B6} = {364AAC1C-57E7-4351-995E-E735D4AF6454}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75E83E1D-113C-4842-89AC-C829051E98A1}
